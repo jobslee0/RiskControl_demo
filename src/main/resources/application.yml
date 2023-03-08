@@ -1,0 +1,13 @@
+server:
+  port: 9999
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: toor
+    url: jdbc:mysql://localhost:3306/risk_control
+
+rcThreadPool:
+  corePoolSize: 5
+  maxPoolSize: 10
+  queueCapacity: 50
